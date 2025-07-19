@@ -1,0 +1,194 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fff5e6, #ffe0b2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #ff6f61, #ff9472);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fce38a;
+}
+
+.cart {
+  font-weight: 600;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1400x500/?indian,festival,market') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #ffc107;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e6ac00;
+}
+
+.products {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.products h2 {
+  color: #ff6f61;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  color: #d62828;
+}
+
+.card p {
+  color: #555;
+}
+
+.card button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn {
+  background: #ff6f61;
+  color: white;
+}
+
+.cart-btn:hover {
+  background: #e63946;
+}
+
+.info-btn {
+  background: #f9c74f;
+  color: black;
+}
+
+.info-btn:hover {
+  background: #f9844a;
+}
+
+.product-info {
+  margin-top: 0.5rem;
+  display: none;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+.payment-section {
+  background: #ffefcf;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.payment-section h2 {
+  color: #ff6f61;
+  margin-bottom: 1rem;
+}
+
+.pay-btn {
+  background: #28a745;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pay-btn:hover {
+  background: #218838;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+}
